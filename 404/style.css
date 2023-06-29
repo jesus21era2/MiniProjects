@@ -48,6 +48,8 @@
 }
 .back {
     width: 15%;
+    background-color: black;
+    color: white;
 }
 
 .subtitle {
