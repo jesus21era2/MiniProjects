@@ -47,6 +47,7 @@
 }
 .back {
     width: 15%;
+    margin-top: 0px;
     background-color: black;
     color: white;
 }
@@ -54,6 +55,7 @@
 .subtitle {
     position: relative;
     top: 10%;
+    margin-bottom: 0px;
     bottom: 0%;
 }
 .back, .title, .subtitle {
@@ -61,4 +63,9 @@
     justify-content: flex-start;
     position: relative;
     top: 35%;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 0px;
 }
