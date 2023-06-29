@@ -72,6 +72,8 @@
 }
 
 .footer {
-    font-size: 0.5rem;
-
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    vertical-align: middle;
 }
