@@ -36,7 +36,9 @@
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-
+    width: 33.7015rem;
+    height: 27.96413rem;
+    flex-shrink: 0;
 }
 
 .topleft {
@@ -46,11 +48,12 @@
     font-weight: bold;
 }
 .back {
-    width: 15%;
-    margin-top: -10px;
-    padding: 8px;
+    width: 13.5rem;
+    height: 4.25rem;
+    flex-shrink: 0;
     background-color: black;
-    color: white;
+    color: aliceblue;
+    background: var(--gray-1, #333);
 }
 
 .subtitle {
@@ -58,17 +61,23 @@
     top: 10%;
     margin-bottom: 0px;
     bottom: 0%;
+    display: flex;
+    width: 23.8125rem;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 .back, .title, .subtitle {
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     position: relative;
     top: 35%;
 }
 
 .title {
-    font-size:3rem;
-    margin-bottom: 0px;
+    display: flex;
+    width: 36.625rem;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 
 .footer {
