@@ -26,6 +26,8 @@
 }
 
 .right {
+    align-self: center;
+    vertical-align: middle;
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -51,7 +53,6 @@
     width: 13.5rem;
     height: 4.25rem;
     flex-shrink: 0;
-    background-color: black;
     color: aliceblue;
     background: var(--gray-1, #333);
 }
@@ -59,7 +60,8 @@
 .subtitle {
     position: relative;
     top: 10%;
-    margin-bottom: 0px;
+    margin-top: -1.618rem;
+    margin-bottom: -1rem;
     bottom: 0%;
     display: flex;
     width: 23.8125rem;
@@ -67,6 +69,7 @@
     flex-shrink: 0;
 }
 .back, .title, .subtitle {
+    
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
@@ -78,6 +81,13 @@
     width: 36.625rem;
     flex-direction: column;
     flex-shrink: 0;
+    color: var(--gray-1, #333);
+    font-size: 4rem;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.14rem;
 }
 
 .footer {
