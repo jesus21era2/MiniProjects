@@ -27,9 +27,16 @@
     align-items: center;
   }
 
+.topleft {
+  justify-self: baseline;
+  align-self: baseline;
+}
+
 .icon {
   width: 60rem;
   align-self: center;
+  margin: auto;
+  margin-top: 10rem;
 } 
 .right {
     display: flex;
