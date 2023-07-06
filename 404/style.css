@@ -13,118 +13,14 @@
     padding: 0;
   }
   
-  .container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .left {
-    display: flex;
-    width: 50%;
-    height: 100vh;
-    justify-content: flex-start;
-  }
-  
-  .right {
-    align-self: center;
-    vertical-align: middle;
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-  }
-  
-  .icon {
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33.7015rem;
-    height: 27.96413rem;
-    flex-shrink: 1;
-  }
-  
-  .topleft {
-    font-size: 24px;
-    position: relative;
-    left: 10%;
-    font-weight: bold;
-  }
-  
-  .back {
-    width: 13.5rem;
-    height: 4.25rem;
-    flex-shrink: 0;
-    color: aliceblue;
-    background: var(--gray-1, #333);
-  }
-  
-  .subtitle {
-    position: relative;
-    top: 10%;
-    margin-top: -1.618rem;
-    margin-bottom: -1rem;
-    bottom: 0%;
-    display: flex;
-    width: 23.8125rem;
-    flex-direction: column;
-    flex-shrink: 0;
-  }
-  
-  .back,
-  .title,
-  .subtitle {
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    top: 35%;
-  }
-  
-  .title {
-    display: flex;
-    width: 36.625rem;
-    flex-direction: column;
-    flex-shrink: 0;
-    color: var(--gray-1, #333);
-    font-size: 4rem;
-    font-family: Space Mono;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.14rem;
-  }
-  
-  .footer {
-    align-items: center;
-    justify-content: center;
-    font-size: 0.7rem;
-    vertical-align: middle;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-  
-    .left {
-      width: 100%;
-      height: auto;
-    }
-  
-    .right {
-      width: 100%;
-    }
-  
-    .icon {
-      width: 100%;
-      height: auto;
-      align-self: flex-start;
-      margin: 0;
-    }
-  
-    .title,
-    .subtitle {
-      top: 10%;
-      width: 100%;
-    }
-  }
-  
+.container {
+  display: flex;
+}
+
+.icon {
+
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  height: 50%;
+}
